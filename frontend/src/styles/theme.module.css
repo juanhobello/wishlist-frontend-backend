@@ -1,4 +1,16 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../assets/fonts/SourceSansPro-Regular.ttf.woff2') format('woff2'),
+}
+
 :root {
   --primary-color: #8200FF;
   --white-color: #FFFFFF;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  font-optical-sizing: auto;
+  font-style: normal;
 }
