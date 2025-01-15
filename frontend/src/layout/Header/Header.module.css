@@ -1,0 +1,7 @@
+.header {
+  display: inline-flex;
+  align-items: center;
+  padding-inline: 160px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
