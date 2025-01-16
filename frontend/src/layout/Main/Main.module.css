@@ -1,3 +1,13 @@
 .main {
-  margin: 16px 160px;
+  display: grid;
+  place-items: center;
+  padding-block: 1rem;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  height: 100%;
+  padding-block: 1rem;
 }

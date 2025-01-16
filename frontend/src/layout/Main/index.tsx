@@ -6,6 +6,8 @@ interface MainProps {
 }
 export default function Main({ children }: MainProps) {
   return (
-    <div className={style["main"]}>{children}</div>
+    <main className={style["main"]}>
+      <div className={style["main-content"]}>{children}</div>
+    </main>
   )
 }

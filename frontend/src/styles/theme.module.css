@@ -6,6 +6,9 @@
 :root {
   --primary-color: #8200FF;
   --white-color: #FFFFFF;
+
+  --gray-100: #E1E1E6;
+  --gray-200: #C4C4CC;
 }
 
 html, body {

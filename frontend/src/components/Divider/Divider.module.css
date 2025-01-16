@@ -1,0 +1,6 @@
+.divider {
+  margin-block: 1rem;
+  border-width: 0px 0px thin;
+  border-style: solid;
+  border-color: rgba(155, 155, 155, 0.397);
+}

@@ -1,0 +1,17 @@
+.menu {
+  position: absolute;
+  background-color: var(--white-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  border-radius: .25rem;
+  overflow: hidden;
+}
+
+.menu-item {
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: var(--gray-100);
+}
