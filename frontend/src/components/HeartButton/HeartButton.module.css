@@ -1,0 +1,30 @@
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heart-button {
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.heart-button.selected {
+  background-color: red;
+}
+
+.heart-button.selected svg {
+  animation: heartBeat 0.2s ease-in-out;
+}

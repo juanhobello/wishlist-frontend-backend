@@ -9,7 +9,6 @@ export default function Header() {
   const open = !!anchorEl
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    console.log(event.currentTarget)
     setAnchorEl(event.currentTarget);
   };
 

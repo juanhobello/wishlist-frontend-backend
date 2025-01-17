@@ -3,25 +3,32 @@
   color: var(--white-color);
   display: grid;
   place-items: center;
+  height: 6rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .header-content {
-  width: 100%;
+  width: calc(100% - 4rem);
   max-width: 80rem;
+  height: calc(6rem - 4rem);
   margin: 0 auto;
-  height: 100%;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .first-section {
-  width: 10rem; 
+  width: 10rem;
   height: 100%; 
 }
 
 .second-section {
-  width: 15rem;
+  width: 100%; 
+  max-width: 10rem;
   display: flex;
   justify-content: space-between;
 }

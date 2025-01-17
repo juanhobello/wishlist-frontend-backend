@@ -1,10 +1,11 @@
 import { api } from "@/redux/api";
+import { Product } from "./types";
 
 const productsApi = api.injectEndpoints({
   endpoints: (build) => ({
-    getProducts: build.query<unknown[], unknown>({
+    getProducts: build.query<Product[], void>({
       query: () => ({
-        url: 'products',
+        url: "products",
         method: "GET",
       }),
     }),

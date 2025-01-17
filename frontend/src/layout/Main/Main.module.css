@@ -5,9 +5,10 @@
 }
 
 .main-content {
-  width: 100%;
+  width: calc(100% - 4rem); 
   max-width: 80rem;
   margin: 0 auto;
   height: 100%;
   padding-block: 1rem;
+  padding: 2rem;
 }

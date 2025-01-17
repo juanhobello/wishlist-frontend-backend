@@ -1,0 +1,15 @@
+.empty-wishlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 5rem;
+  color: var(--primary-color)
+}
+
+
+.empty-wishlist {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
