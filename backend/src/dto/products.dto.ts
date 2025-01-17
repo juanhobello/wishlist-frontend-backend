@@ -1,36 +1,39 @@
-import { Expose } from "class-transformer";
-
 export class ProductResponseDto {
-  @Expose
-  code!: string;
-  
-  @Expose
-  name!: string;
-
-  @Expose
-  available!: boolean;
-
-  @Expose
-  visible!: boolean;
-
-  @Expose
-  details!: {
+  readonly code: string;
+  readonly name: string;
+  readonly available: boolean;
+  readonly visible: boolean;
+  readonly details: {
     name: string;
     description: string;
   };
+  readonly fullPriceInCents: string;
+  readonly salePriceInCents: string;
+  readonly rating: number;
+  readonly image: string;
+  readonly stockAvailable: boolean;
 
-  @Expose
-  fullPriceInCents!: string;
-
-  @Expose
-  salePriceInCents!: string;
-
-  @Expose
-  rating!: number;
-
-  @Expose 
-  image!: string;
-
-  @Expose
-  stockAvailable!: boolean;
+  constructor(
+    code: string,
+    name: string,
+    available: boolean,
+    visible: boolean,
+    details: { name: string; description: string },
+    fullPriceInCents: string,
+    salePriceInCents: string,
+    rating: number,
+    image: string,
+    stockAvailable: boolean
+  ) {
+    this.code = code;
+    this.name = name;
+    this.available = available;
+    this.visible = visible;
+    this.details = details;
+    this.fullPriceInCents = fullPriceInCents;
+    this.salePriceInCents = salePriceInCents;
+    this.rating = rating;
+    this.image = image;
+    this.stockAvailable = stockAvailable;
+  }
 }

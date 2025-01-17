@@ -3,15 +3,25 @@
   background-color: var(--white-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 9999;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   overflow: hidden;
 }
 
 .menu-item {
-  padding: .5rem;
+  padding: 0.5rem;
   cursor: pointer;
 }
 
 .menu-item:hover {
   background-color: var(--gray-100);
+}
+
+.arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid red;
+  background-color: red;
 }
