@@ -1,3 +1,4 @@
 import useClickOutside from "./useClickOutside";
+import { useWishlist } from "./useWishlist";
 
-export { useClickOutside }
+export { useClickOutside, useWishlist };

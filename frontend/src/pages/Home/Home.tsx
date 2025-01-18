@@ -1,25 +1,10 @@
 import { BreadcrumbItem, Breadcrumbs, Divider, HeartButton, ProductCard, ProductListContainer } from "@/components";
-import { useAppDispatch, useAppSelector } from "@/redux";
+import { useWishlist } from "@/hooks";
 import { useGetProductsQuery } from "@/redux/services";
-import { addProductWishlist, removeProductWishlist } from "@/redux/slices";
-import { Product } from "@/redux/types";
 
 export default function Home() {
   const { data } = useGetProductsQuery()
-  const dispatch = useAppDispatch()
-  const wishlist = useAppSelector(state => state.wishlist);
-  const wishlistCodes = wishlist.map(product => product.code);
-
-  const isItemInWishlist = (code: string) => wishlistCodes.includes(code);
-
-  const toggleWishlistItem = (product: Product) => {
-    if (isItemInWishlist(product.code)) {
-      return dispatch(removeProductWishlist(product.code))
-    }
-
-    return dispatch(addProductWishlist(product))
-  }
-
+  const { isItemInWishlist, toggleWishlistItem } = useWishlist()
 
   return (
     <>
