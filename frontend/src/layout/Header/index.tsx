@@ -1,20 +1,11 @@
-import { useState } from 'react';
 import { CustomLink, Logo, Menu, MenuItem } from '@/components'
 import { FiHeart } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
 import style from './Header.module.css'
+import { useMenu } from '@/hooks';
 
 export default function Header() {
-  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-  const open = !!anchorEl
-
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
+  const { open, anchorEl, handleOpen, handleClose } = useMenu();
 
   return (
     <header className={style["header"]}>
@@ -26,7 +17,7 @@ export default function Header() {
         <section className={style['second-section']}>
           <CustomLink path="/wishlist"><FiHeart fontSize={24} /><span>Wishlist</span></CustomLink>
 
-          <span onClick={handleClick}><FaUserCircle fontSize={24} /></span>
+          <span onClick={handleOpen} style={{ cursor: 'pointer' }}><FaUserCircle fontSize={24} /></span>
 
           <Menu open={open} archorEl={anchorEl} onClose={handleClose}>
             <MenuItem onClick={handleClose}>Entrar</MenuItem>
