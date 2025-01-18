@@ -43,7 +43,7 @@ The application is composed of two parts, with a greater emphasis on the fronten
     ```
 - Start the server:
     ```bash
-     npm start
+     npm run dev
     ```
 
 3. Set up the Frontend:
@@ -58,7 +58,7 @@ The application is composed of two parts, with a greater emphasis on the fronten
     ```
 - Start the server:
     ```bash
-     npm start
+     npm run dev
     ```
 
 4. Access the application:
