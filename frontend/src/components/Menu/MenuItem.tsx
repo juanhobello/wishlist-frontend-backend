@@ -2,7 +2,7 @@ import type { ReactNode } from "react"
 import style from "./Menu.module.css"
 
 interface MenuItemProps {
-  onClick?: () => void
+  onClick?: VoidFunction
   children: ReactNode
 }
 

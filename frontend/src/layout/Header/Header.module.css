@@ -31,4 +31,19 @@
   max-width: 10rem;
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
+}
+
+.second-section a {
+  color: var(--white-color);
+}
+
+@media (max-width: 768px) {
+  .second-section {
+    width: auto;
+  }
+
+  .second-section a span {
+    display: none;
+  }
 }

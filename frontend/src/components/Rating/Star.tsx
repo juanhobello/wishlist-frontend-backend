@@ -6,17 +6,26 @@ export default function Star({ percentage }: StarProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="20"
-      height="20"
-      viewBox="0 0 24 24"
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
     >
       <defs>
         <linearGradient id={`grad-${percentage}`} x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset={`${percentage}%`} style={{ stopColor: 'var(--star-color)', stopOpacity: 1 }} />
-          <stop offset={`${percentage}%`} style={{ stopColor: 'var(--gray-300)', stopOpacity: 1 }} />
+          <stop
+            offset={`${percentage}%`}
+            style={{ stopColor: 'var(--star-color)', stopOpacity: 1 }}
+          />
+          <stop
+            offset={`${percentage}%`}
+            style={{ stopColor: 'var(--gray-300)', stopOpacity: 1 }}
+          />
         </linearGradient>
       </defs>
-      <path fill={`url(#grad-${percentage})`} d="M12 .288l2.833 8.718h9.167l-7.417 5.391 2.833 8.719-7.416-5.391-7.417 5.391 2.833-8.719-7.417-5.391h9.167z" />
+      <path
+        fill={`url(#grad-${percentage})`}
+        d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+      />
     </svg>
   )
 }

@@ -1,12 +1,13 @@
 .product-card {
   width: calc(100% - 2rem);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: var(--box-shadow-default);
   padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: .5rem;
   font-weight: 500;
   position: relative;
+  border-radius: .5rem;
 }
 
 .title-product {
@@ -41,6 +42,6 @@
 
 .float-button {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: .5rem;
+  right: .5rem;
 }

@@ -3,7 +3,7 @@ import type { RefObject } from "react";
 
 export default function useClickOutside(
   elementRef: RefObject<HTMLElement>,
-  callback: () => void
+  callback: VoidFunction
 ) {
   useEffect(() => {
     const handleClickOutside = (event: Event) => {

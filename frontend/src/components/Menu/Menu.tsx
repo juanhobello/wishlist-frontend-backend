@@ -9,7 +9,7 @@ interface MenuProps {
   open: boolean
   archorEl: HTMLElement | null
   children: ReactNode
-  onClose: () => void
+  onClose: VoidFunction
 }
 
 export default function Menu({ archorEl, open, children, onClose }: MenuProps) {

@@ -28,7 +28,11 @@ export default function Wishlist() {
             <ProductCard
               key={product.code}
               product={product}
-              floatButton={<span style={{ cursor: 'pointer' }} onClick={() => removeItemWishlist(product.code)}><IoMdClose /></span>}
+              floatButton={
+                <span style={{ cursor: 'pointer' }} onClick={() => removeItemWishlist(product.code)}>
+                  <IoMdClose fontSize={24} />
+                </span>
+              }
             />
           )}
         </ProductListContainer>
