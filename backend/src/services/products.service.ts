@@ -20,4 +20,23 @@ export class ProductService {
 
     return product;
   }
+
+  async getPaginatedProducts(page: number, limit: number){
+    const allItems = await this.productRepository.findAll();
+
+    const totalItems = allItems.length;
+    const totalPages = Math.ceil(totalItems / limit);
+    const startIndex = (page - 1) * limit;
+    const endIndex = page * limit;
+
+    const products = allItems.slice(startIndex, endIndex);
+
+    return {
+      page,
+      limit,
+      totalItems,
+      totalPages,
+      items: products,
+    };
+  }
 }

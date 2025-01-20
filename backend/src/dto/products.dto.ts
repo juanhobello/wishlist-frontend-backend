@@ -1,3 +1,5 @@
+import { Product } from "../models/products.model";
+
 export class ProductResponseDto {
   readonly code: string;
   readonly name: string;
@@ -35,5 +37,27 @@ export class ProductResponseDto {
     this.rating = rating;
     this.image = image;
     this.stockAvailable = stockAvailable;
+  }
+}
+
+export class PaginatedProductResponseDto {
+  readonly page: number;
+  readonly limit: number;
+  readonly totalItems: number;
+  readonly totalPages: number;
+  readonly items: Product[];
+
+  constructor(
+    page: number,
+    limit: number,
+    totalItems: number,
+    totalPages: number,
+    items: Product[]
+  ) {
+    this.page = page;
+    this.limit = limit;
+    this.totalItems = totalItems;
+    this.totalPages = totalPages;
+    this.items = items;
   }
 }

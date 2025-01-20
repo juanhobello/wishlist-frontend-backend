@@ -10,7 +10,6 @@ The application is composed of two parts, with a greater emphasis on the fronten
     - Built with Node.js, Express, and TypeScript.
     - Provides an endpoint that returns a mock JSON for a product listing.
     - Developed following best practices, even as a simple implementation.
-    - Limitation: Pagination has not been implemented but would be ideal for handling      product lists in an e-commerce application.
 
 - Frontend:
     - Developed using React, TypeScript, and CSS Modules.
@@ -69,7 +68,7 @@ The application is composed of two parts, with a greater emphasis on the fronten
 #### Backend
 - Built using Express and TypeScript.
 - Modular and maintainable code structure.
-- Organized with clear separation of routes, controllers, and services.
+- Organized with clear separation of routes, controllers, repositories and services.
 
 #### Frontend
 - Components built from scratch using React and CSS Modules, without third-party UI libraries.
@@ -78,7 +77,6 @@ The application is composed of two parts, with a greater emphasis on the fronten
 - Scalable and customizable design.
 
 ### Known Limitations
-- Pagination is missing in the backend API.
 - The wishlist is stored locally instead of being persisted in the backend, which limits cross-device access.
 
 ### Potential Improvements
