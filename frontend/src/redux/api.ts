@@ -19,7 +19,7 @@ interface AxiosBaseQueryError {
 const axiosBaseQuery =
   (): BaseQueryFn<AxiosBaseQueryArgs, unknown, AxiosBaseQueryError> =>
   async ({ url, method, data, params }, api) => {
-    const serverUrl = `http://${import.meta.env.VITE_SERVE_URL}/${url}`;
+    const serverUrl = `http://${process.env.VITE_SERVE_URL}/${url}`;
 
     try {
       const result = await axios({

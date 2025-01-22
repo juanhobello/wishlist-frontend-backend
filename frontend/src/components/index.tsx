@@ -6,7 +6,6 @@ import Divider from "./Divider";
 import Rating from "./Rating";
 import StrikethroughText from './StrikethroughText'
 import ProductCard from "./ProductCard";
-import ProductListContainer from "./ProductListContainer";
 import HeartButton from './HeartButton';
 
 export {
@@ -20,6 +19,5 @@ export {
   Rating,
   StrikethroughText,
   ProductCard,
-  ProductListContainer,
   HeartButton
 }

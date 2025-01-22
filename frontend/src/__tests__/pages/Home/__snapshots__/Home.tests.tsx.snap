@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page matches snapshot 1`] = `
+<div>
+  <ol
+    class="breadcrumbs-list"
+  >
+    <li>
+      <a
+        class="breadcrumbs-link"
+        data-discover="true"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+  </ol>
+  <hr
+    class="divider"
+  />
+  <div
+    class="products-list"
+  >
+    <div
+      class="product-card"
+    >
+      <span
+        class="float-button"
+      >
+        <button
+          aria-label="like-button-D22-2077-006"
+          class="heart-button"
+        >
+          <svg
+            fill="none"
+            font-size="20"
+            height="1em"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+            />
+          </svg>
+        </button>
+      </span>
+      <img
+        alt="Tênis Nike Revolution 7 Feminino - Preto+Branco"
+        class="img"
+        src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-7-feminino/26/JD8-6363-026/JD8-6363-026_zoom1.jpg?ts=1708096757?ims=544x"
+      />
+      <div
+        class="title-product"
+      >
+        <p>
+          Tênis Nike Revolution 7 Feminino - Preto+Branco
+        </p>
+      </div>
+      <div
+        class="rating"
+      >
+        <svg
+          aria-label="Star"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <lineargradient
+              id="grad-100"
+              x1="0%"
+              x2="100%"
+              y1="0%"
+              y2="0%"
+            >
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+            </lineargradient>
+          </defs>
+          <path
+            d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+            fill="url(#grad-100)"
+          />
+        </svg>
+        <svg
+          aria-label="Star"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <lineargradient
+              id="grad-100"
+              x1="0%"
+              x2="100%"
+              y1="0%"
+              y2="0%"
+            >
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+            </lineargradient>
+          </defs>
+          <path
+            d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+            fill="url(#grad-100)"
+          />
+        </svg>
+        <svg
+          aria-label="Star"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <lineargradient
+              id="grad-100"
+              x1="0%"
+              x2="100%"
+              y1="0%"
+              y2="0%"
+            >
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+            </lineargradient>
+          </defs>
+          <path
+            d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+            fill="url(#grad-100)"
+          />
+        </svg>
+        <svg
+          aria-label="Star"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <lineargradient
+              id="grad-100"
+              x1="0%"
+              x2="100%"
+              y1="0%"
+              y2="0%"
+            >
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+            </lineargradient>
+          </defs>
+          <path
+            d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+            fill="url(#grad-100)"
+          />
+        </svg>
+        <svg
+          aria-label="Star"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <lineargradient
+              id="grad-50"
+              x1="0%"
+              x2="100%"
+              y1="0%"
+              y2="0%"
+            >
+              <stop
+                offset="50%"
+                style="stop-opacity: 1;"
+              />
+              <stop
+                offset="50%"
+                style="stop-opacity: 1;"
+              />
+            </lineargradient>
+          </defs>
+          <path
+            d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+            fill="url(#grad-50)"
+          />
+        </svg>
+        <p>
+          4.5
+        </p>
+      </div>
+      <s
+        class="text"
+      >
+        R$ 399,99
+      </s>
+      <span
+        class="price"
+      >
+        R$ 303,99
+      </span>
+    </div>
+    <div
+      class="product-card"
+    >
+      <span
+        class="float-button"
+      >
+        <button
+          aria-label="like-button-NQQ-4378-028"
+          class="heart-button"
+        >
+          <svg
+            fill="none"
+            font-size="20"
+            height="1em"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+            />
+          </svg>
+        </button>
+      </span>
+      <img
+        alt="Bola de Futebol Society Penalty 8 X - Branco+Verde Limão"
+        class="img"
+        src="https://static.netshoes.com.br/produtos/bola-de-futebol-society-penalty-8-x/78/D23-5694-078/D23-5694-078_zoom1.jpg?ts=1695700132?ims=544x"
+      />
+      <div
+        class="title-product"
+      >
+        <p>
+          Bola de Futebol Society Penalty 8 X - Branco+Verde Limão
+        </p>
+      </div>
+      <div
+        class="rating"
+      >
+        <svg
+          aria-label="Star"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <lineargradient
+              id="grad-100"
+              x1="0%"
+              x2="100%"
+              y1="0%"
+              y2="0%"
+            >
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+            </lineargradient>
+          </defs>
+          <path
+            d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+            fill="url(#grad-100)"
+          />
+        </svg>
+        <svg
+          aria-label="Star"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <lineargradient
+              id="grad-100"
+              x1="0%"
+              x2="100%"
+              y1="0%"
+              y2="0%"
+            >
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+            </lineargradient>
+          </defs>
+          <path
+            d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+            fill="url(#grad-100)"
+          />
+        </svg>
+        <svg
+          aria-label="Star"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <lineargradient
+              id="grad-100"
+              x1="0%"
+              x2="100%"
+              y1="0%"
+              y2="0%"
+            >
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+            </lineargradient>
+          </defs>
+          <path
+            d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+            fill="url(#grad-100)"
+          />
+        </svg>
+        <svg
+          aria-label="Star"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <lineargradient
+              id="grad-100"
+              x1="0%"
+              x2="100%"
+              y1="0%"
+              y2="0%"
+            >
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+              <stop
+                offset="100%"
+                style="stop-opacity: 1;"
+              />
+            </lineargradient>
+          </defs>
+          <path
+            d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+            fill="url(#grad-100)"
+          />
+        </svg>
+        <svg
+          aria-label="Star"
+          height="16"
+          role="img"
+          viewBox="0 0 16 16"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <lineargradient
+              id="grad-0"
+              x1="0%"
+              x2="100%"
+              y1="0%"
+              y2="0%"
+            >
+              <stop
+                offset="0%"
+                style="stop-opacity: 1;"
+              />
+              <stop
+                offset="0%"
+                style="stop-opacity: 1;"
+              />
+            </lineargradient>
+          </defs>
+          <path
+            d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+            fill="url(#grad-0)"
+          />
+        </svg>
+        <p>
+          4.0
+        </p>
+      </div>
+      <s
+        class="text"
+      >
+        R$ 220,00
+      </s>
+      <span
+        class="price"
+      >
+        R$ 174,99
+      </span>
+    </div>
+  </div>
+</div>
+`;

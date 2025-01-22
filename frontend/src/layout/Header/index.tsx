@@ -17,7 +17,7 @@ export default function Header() {
         <section className={style['second-section']}>
           <CustomLink path="/wishlist"><FiHeart fontSize={24} /><span>Wishlist</span></CustomLink>
 
-          <span onClick={handleOpen} style={{ cursor: 'pointer' }}><FaUserCircle fontSize={28} /></span>
+          <span role="button"   onClick={handleOpen} style={{ cursor: 'pointer' }} aria-label='User'><FaUserCircle fontSize={28} /></span>
 
           <Menu open={open} archorEl={anchorEl} onClose={handleClose}>
             <MenuItem onClick={handleClose}>Entrar</MenuItem>

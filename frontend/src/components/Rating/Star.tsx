@@ -9,6 +9,8 @@ export default function Star({ percentage }: StarProps) {
       width="16"
       height="16"
       viewBox="0 0 16 16"
+      role='img'
+      aria-label='Star'
     >
       <defs>
         <linearGradient id={`grad-${percentage}`} x1="0%" y1="0%" x2="100%" y2="0%">

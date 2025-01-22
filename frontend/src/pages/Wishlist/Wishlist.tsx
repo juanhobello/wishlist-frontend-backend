@@ -1,4 +1,4 @@
-import { BreadcrumbItem, Breadcrumbs, Divider, ProductCard, ProductListContainer } from "@/components";
+import { BreadcrumbItem, Breadcrumbs, Divider, ProductCard } from "@/components";
 import { FiHeart } from "react-icons/fi";
 import { IoMdClose } from "react-icons/io";
 import { useWishlist } from "@/hooks";
@@ -23,19 +23,19 @@ export default function Wishlist() {
       }
 
       {hasWishlistItems &&
-        <ProductListContainer>
+        <div className={styles["products-list"]}>
           {wishlist?.map(product =>
             <ProductCard
               key={product.code}
               product={product}
               floatButton={
-                <span style={{ cursor: 'pointer' }} onClick={() => removeItemWishlist(product.code)}>
+                <span style={{ cursor: 'pointer' }} onClick={() => removeItemWishlist(product.code)} aria-label={`remove-button-${product.code}`}>
                   <IoMdClose fontSize={24} />
                 </span>
               }
             />
           )}
-        </ProductListContainer>
+        </div>
       }
     </>
   )

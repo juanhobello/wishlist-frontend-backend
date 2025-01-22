@@ -8,7 +8,7 @@ interface MenuItemProps {
 
 export default function MenuItem({ onClick, children }: MenuItemProps) {
   return (
-    <li onClick={onClick} className={style["menu-item"]}>{children}</li>
+    <li onClick={onClick} className={style["menu-item"]} role='menuitem'>{children}</li>
   )
 }
 

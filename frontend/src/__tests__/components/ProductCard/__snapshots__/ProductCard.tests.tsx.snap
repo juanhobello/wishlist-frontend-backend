@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard component matches snapshot 1`] = `
+<div>
+  <div
+    class="product-card"
+  >
+    <img
+      alt="Product Name"
+      class="img"
+      src="image-url.jpg"
+    />
+    <div
+      class="title-product"
+    >
+      <p>
+        Product Name
+      </p>
+    </div>
+    <div
+      class="rating"
+    >
+      <svg
+        aria-label="Star"
+        height="16"
+        role="img"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <lineargradient
+            id="grad-100"
+            x1="0%"
+            x2="100%"
+            y1="0%"
+            y2="0%"
+          >
+            <stop
+              offset="100%"
+              style="stop-opacity: 1;"
+            />
+            <stop
+              offset="100%"
+              style="stop-opacity: 1;"
+            />
+          </lineargradient>
+        </defs>
+        <path
+          d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+          fill="url(#grad-100)"
+        />
+      </svg>
+      <svg
+        aria-label="Star"
+        height="16"
+        role="img"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <lineargradient
+            id="grad-100"
+            x1="0%"
+            x2="100%"
+            y1="0%"
+            y2="0%"
+          >
+            <stop
+              offset="100%"
+              style="stop-opacity: 1;"
+            />
+            <stop
+              offset="100%"
+              style="stop-opacity: 1;"
+            />
+          </lineargradient>
+        </defs>
+        <path
+          d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+          fill="url(#grad-100)"
+        />
+      </svg>
+      <svg
+        aria-label="Star"
+        height="16"
+        role="img"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <lineargradient
+            id="grad-100"
+            x1="0%"
+            x2="100%"
+            y1="0%"
+            y2="0%"
+          >
+            <stop
+              offset="100%"
+              style="stop-opacity: 1;"
+            />
+            <stop
+              offset="100%"
+              style="stop-opacity: 1;"
+            />
+          </lineargradient>
+        </defs>
+        <path
+          d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+          fill="url(#grad-100)"
+        />
+      </svg>
+      <svg
+        aria-label="Star"
+        height="16"
+        role="img"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <lineargradient
+            id="grad-100"
+            x1="0%"
+            x2="100%"
+            y1="0%"
+            y2="0%"
+          >
+            <stop
+              offset="100%"
+              style="stop-opacity: 1;"
+            />
+            <stop
+              offset="100%"
+              style="stop-opacity: 1;"
+            />
+          </lineargradient>
+        </defs>
+        <path
+          d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+          fill="url(#grad-100)"
+        />
+      </svg>
+      <svg
+        aria-label="Star"
+        height="16"
+        role="img"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <lineargradient
+            id="grad-50"
+            x1="0%"
+            x2="100%"
+            y1="0%"
+            y2="0%"
+          >
+            <stop
+              offset="50%"
+              style="stop-opacity: 1;"
+            />
+            <stop
+              offset="50%"
+              style="stop-opacity: 1;"
+            />
+          </lineargradient>
+        </defs>
+        <path
+          d="M8 .192l1.889 5.812h6.111l-4.944 3.594 1.889 5.813-4.944-3.594-4.944 3.594 1.889-5.813-4.944-3.594h6.111z"
+          fill="url(#grad-50)"
+        />
+      </svg>
+      <p>
+        4.5
+      </p>
+    </div>
+    <s
+      class="text"
+    >
+      R$ 50,00
+    </s>
+    <span
+      class="price"
+    >
+      R$ 40,00
+    </span>
+  </div>
+</div>
+`;

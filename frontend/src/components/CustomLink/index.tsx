@@ -9,7 +9,7 @@ interface CustomLinkProps {
 
 export default function CustomLink({ path, children }: CustomLinkProps) {
   return (
-    <Link className={style["link"]} to={path}>
+    <Link className={style["link-wrapper"]} to={path}>
       {children}
     </Link>
   )

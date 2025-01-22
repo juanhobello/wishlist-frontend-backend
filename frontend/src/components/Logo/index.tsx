@@ -6,7 +6,7 @@ interface LogoProps {
 }
 export default function Logo({ path }: LogoProps) {
   return (
-    <Link to={path} className={styles["logo-container"]}>
+    <Link to={path} className={styles["logo-container"]} aria-label="Logo">
       <div className={styles["logo"]} />
     </Link>
   )

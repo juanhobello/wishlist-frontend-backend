@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom';
+import * as ReactDOM from 'react-dom';
 import { useRef } from "react"
 import type { ReactNode } from "react"
 import { useClickOutside } from '@/hooks';
@@ -24,8 +24,9 @@ export default function Menu({ archorEl, open, children, onClose }: MenuProps) {
       <div
         className={style["menu"]}
         ref={menuRef}
+        role="menu"
       >
-        <ul>
+        <ul >
           {children}
         </ul>
       </div>

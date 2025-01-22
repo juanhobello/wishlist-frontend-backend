@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo component matches snapshot 1`] = `
+<div>
+  <a
+    aria-label="Logo"
+    class="logo-container"
+    data-discover="true"
+    href="/home"
+  >
+    <div
+      class="logo"
+    />
+  </a>
+</div>
+`;
