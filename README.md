@@ -17,6 +17,7 @@ The application is composed of two parts, with a greater emphasis on the fronten
         - Freatures:
             - API Connection: Implemented with Redux and Redux Toolkit.
             - Data Persistence: The wishlist is saved in the LocalStorage. Although it would ideally be stored in the API for cross-device accessibility, this solution suffices for the test's scope.
+            - Testing: Implemented unit tests using Jest and React Testing Library to ensure components and integrations are functioning correctly.
 
 
 ## How to Run the Project
@@ -58,6 +59,10 @@ The application is composed of two parts, with a greater emphasis on the fronten
 - Start the server:
     ```bash
      npm run dev
+    ```
+- To run the tests.:
+    ```bash
+     npm test
     ```
 
 4. Access the application:
